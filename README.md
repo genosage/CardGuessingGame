@@ -2,8 +2,6 @@
 
 This is a two-player logical guessing game implemented in Haskell. In this game, two players face each other, each with a complete standard deck of western playing cards (without jokers). One player will be the answerer and the other is the guesser. The answerer begins by selecting some number of cards from his or her deck without showing the guesser. These cards will form the answer for this game. The aim of the game is for the guesser to guess the answer.
 
-----------
-
 ## Game Flow
 At the beginning, the answerer selects the answer, the guesser then chooses the same number of cards from his or her deck to form the guess and shows them to the answerer. The answerer responds by telling the guesser these five numbers as feedback for the guess:
 
